@@ -5,7 +5,7 @@ import Hero from "./components/Hero";
 
 export default function App() {
   const cards = (
-    <div className="flex flex-wrap px-3 py-12 justify-center gap-3 mt-20">
+    <div className="flex flex-wrap px-3 py-12 justify-center gap-3 mt-10">
       {data.map((item) => {
         return <Card key={item.id} item={item} />;
       })}
